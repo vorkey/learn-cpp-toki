@@ -28,9 +28,9 @@ vector<long long> sum_of_all_without_this_number(vector<long long> v) {
     current_sum = 0;
     for (long long j : v) {
       current_sum += j;
-      cout << current_sum << " + " << j << " ";
+      // cout << current_sum << " + " << j << " ";
     }
-    cout << '-' << num << endl;
+    // cout << '-' << num << endl;
     current_sum -= num;
     result.push_back(current_sum);
   }
