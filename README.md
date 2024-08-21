@@ -6,6 +6,8 @@ Repository to store basic c++ learning from [Toki Pemrograman Dasar Dengan C++](
 
 in linux we are using g++, a command line tool from gcc package
 
+I still don't understand O notation, especially one that contain log
+
 ``` bash
 g++ source_file.cpp -o result_file
 
